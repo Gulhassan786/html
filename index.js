@@ -1,1 +1,1 @@
-doccument.write("how are you hassan")
+alert("how are you hassan")
