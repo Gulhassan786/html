@@ -31,4 +31,4 @@ jobs:
       - name: Installing surge
         run: npm install --global surge
       - name: deploying using surge
-        run: surge ./experimental_index_html.surge.sh --token ${{secrets.Token}}
+        run: surge ./ experimental_index_html.surge.sh --token ${{secrets.Token}}
